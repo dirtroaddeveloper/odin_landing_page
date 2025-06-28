@@ -9,6 +9,7 @@
 header {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     width: 100%;
     height: 400px;
     background-color: #1f2937;
@@ -18,6 +19,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
     
     color: white;
 }
@@ -29,6 +31,10 @@ header {
     list-style-type: none;
     
     margin-right: 10px;
+}
+
+.nav__bar > p {
+    margin-left: 10px;
 }
 .nav__bar > ul > li {
     padding:10px 20px;
@@ -45,4 +51,167 @@ header {
 
 
 
+.header__hero {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 
+.header__hero-info {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+    color: white;
+    
+    width: 30%;
+}
+.header__hero-info > h2 {
+    font-size: 42px;
+}
+
+.header__hero-info > p {
+    width: 80%;
+    
+}
+
+.header__hero-info > button {
+    padding: 8px;
+    width: 140px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+.first__section {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxes__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: 400px;
+    
+}
+
+.boxes {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.boxes > div {
+    
+    width: 180px;
+    height: 160px;
+    border: 1px solid 
+    #3882f6;
+}
+
+.boxes > p {
+width: 180px;
+}
+
+
+.second__section {
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.second__section > div {
+    display: flex;
+    flex-direction: column;
+}
+#quote {
+    font-style: italic;
+}
+#author  {
+    width: 30%;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+
+
+
+.third__section {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third__section-container {
+    width: 44%;
+    height: 100px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+
+.third__section-container > div {
+    width: 50%;
+    color: white;
+}
+ 
+.third__section-container > div > h2 {
+
+}
+
+.third__section-container > div > p {
+    width: 80%;
+    font-size: 8px;
+}
+
+.third__section-container > button {
+    padding: 8px;
+    height: 40px;
+    width: 140px;
+    background-color: #3882f6;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
